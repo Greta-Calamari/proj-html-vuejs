@@ -1,5 +1,5 @@
 <template>
-    <div>
+<div class="border">
 <nav class="navbar navbar-expand-lg bg-light d-flex justify-content-center ">
   <div class="d-flex justify-content-between">
     <a class="navbar-brand" href="#">
@@ -115,7 +115,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
-
+.border{
+    box-shadow: 5px 5px 2px lightgray;
+}
 
 .glass{
     position: relative;
