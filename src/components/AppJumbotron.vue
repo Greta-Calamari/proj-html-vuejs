@@ -28,12 +28,12 @@
               <img src="../assets/images/maxcoach-shape-07.png" class="c-3" alt="">
               <img src="../assets/images/maxcoach-shape-02.png" class="c-4" alt="">
               <div class="c-5"></div>
-
-
-
-
-
           </div>
+
+
+
+
+
 
       </div>
 
