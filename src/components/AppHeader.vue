@@ -7,7 +7,7 @@
     </a>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <li class="nav-item dropdown">
-          <a class="nav-link disabled dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Home
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -19,7 +19,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link disabled dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Pages
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -31,7 +31,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link disabled dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
              Courses
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -43,7 +43,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link disabled dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
              Features
             
           </a>
@@ -56,7 +56,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link disabled dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Blog
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -67,8 +67,8 @@
           </ul>
         </li>
 
-        <li class="nav-item dropdown ">
-          <a class="nav-link disabled dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown">
+          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Shop
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -124,5 +124,8 @@ export default {
     top:10px;
     right:40px;
     color: $green;
+}
+.color-nav{
+  color: $gray;
 }
 </style>
