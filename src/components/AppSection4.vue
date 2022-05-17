@@ -69,7 +69,7 @@
                 </ul>
 
             </div>
-            <div class="col-4 ">
+            <div class="col-4 hovv">
                 <div class="card" style="width: 18rem;">
                     <img src="../assets/images/artist-blog-03-480x352.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -92,7 +92,7 @@
 
             </div>
             
-            <div class="col-4 ">
+            <div class="col-4 hovv">
                 <div class="card" style="width: 18rem;">
                     <img src="../assets/images/artist-blog-01-480x352.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -125,7 +125,7 @@
 
 
 
-    <div class="container text-center">
+    <div class="container text-center hovve">
         <h4 class="tit-"> Subscribe <span class="tis-gr"> Newsletters</span> </h4>
         <p class="text-muted">Enter tour email to register to our newsletter subscription </p>
         <p class="text-muted">delivered on a regular basis!</p>
@@ -157,6 +157,27 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/vars.scss';
+.hovv{
+    transition: 1s;
+}
+.hovv:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.hovve{
+    transition: 1s;
+}
+
+.hovve:hover .c22,.hovve:hover .c11{
+   -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+
+
+}
 
 
 .bord{
@@ -219,6 +240,77 @@ export default {
 }
 .lh{
     line-height: 50px;
+}
+
+
+
+
+// ANIMATION
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
 
 </style>
