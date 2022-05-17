@@ -140,11 +140,6 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
-:root {
-  --pink: #ff4081;
-}
-
-
 
 
 
@@ -165,14 +160,8 @@ export default {
     width: 60%;
   }
 
-  li a:hover {
-    color: $green;
-  }
+ 
 
-  li:first-child {
-    margin-right: auto;
-    margin-left: 3em;
-  }
 
 
 

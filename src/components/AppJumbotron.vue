@@ -8,7 +8,7 @@
                   <i class="fa-solid fa-download"></i>
                   Download free guide
               </button>
-              <div class="rev ">
+              <div class="rev ovv">
                 <span>Have questions?</span>
                     <span class="link">
                         Get Free Sample
@@ -16,7 +16,10 @@
                     <span class="link">
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </span>
+                    
                     <div class="marki">
+                    
+
                     </div>
               </div>
 
@@ -33,7 +36,7 @@
 
           <div class="col-6 revi">
               <img src="../assets/images/about-me.jpg" class="circle" alt="">
-              <img src="../assets/images/maxcoach-shape-08.png" class="c-1" alt="">
+              <img src="../assets/images/maxcoach-shape-08.png" class="c-1 " alt="">
               <img src="../assets/images/maxcoach-shape-08.png" class="c-2" alt="">
               <img src="../assets/images/maxcoach-shape-07.png" class="c-3" alt="">
               <img src="../assets/images/maxcoach-shape-02.png" class="c-4" alt="">
@@ -95,31 +98,29 @@ export default {
 
 
 
-.marki::after{
+.ovv .marki::before{
     content: "";
     position: absolute;
-    width:40%;
-    height: 1px;
-    background: #e0e0e0;
-    transition: all 1s;
+    height: 0.2em;
+    width: 40%;
+    background-color: $bg;
+    bottom: -0.1em;
+    transition: all ease-in-out 250ms;
+}
     
 
         
+
+
+.ovv:hover .marki{
+    background-color: $green;
+    width: 20%;
 }
-
-
-.marki:hover{
-    background: $green;
-    width: 500px ;
     
 
-}
-
 
 
         
-        
-
 .revi{
     position: relative;
 }
@@ -128,6 +129,8 @@ export default {
     position: relative;
     
 }
+        
+
 
 
 
