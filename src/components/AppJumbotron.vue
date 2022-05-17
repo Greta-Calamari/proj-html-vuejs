@@ -8,21 +8,30 @@
                   <i class="fa-solid fa-download"></i>
                   Download free guide
               </button>
-              <p>Have questions?
+              <div class="rev ">
+                <span>Have questions?</span>
+                    <span class="link">
+                        Get Free Sample
+                    </span>
+                    <span class="link">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </span>
+                    <div class="marki">
+                    </div>
+              </div>
 
-              <span class="link ">
-                  <div class="mark"></div>
-                  Get Free Sample
-                  <i class="fa-solid fa-arrow-right-long"></i>
 
-              </span>
 
-              </p>
+                  
+
+
+
+              
 
 
           </div>
 
-          <div class="col-6">
+          <div class="col-6 revi">
               <img src="../assets/images/about-me.jpg" class="circle" alt="">
               <img src="../assets/images/maxcoach-shape-08.png" class="c-1" alt="">
               <img src="../assets/images/maxcoach-shape-08.png" class="c-2" alt="">
@@ -70,18 +79,39 @@ export default {
 <style lang="scss">
 @import '../styles/vars.scss';
 // EFFETTI
-.mark::before{
+.marki::after{
+    content: "";
+    position: absolute;
+    width:40%;
+    height: 1px;
+    background: #e0e0e0;
+    transition: all 1s;
+    
 
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 1px;
-        background: #e0e0e0;
         
 }
 
+
+.marki:hover{
+    background: $green;
+    width: 500px ;
+    
+
+}
+
+
+
+        
+        
+
+.revi{
+    position: relative;
+}
+
+.rev{
+    position: relative;
+    
+}
 
 
 

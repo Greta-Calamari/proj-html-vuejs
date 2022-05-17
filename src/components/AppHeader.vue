@@ -17,7 +17,7 @@
     </a>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[0].name}}
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -29,7 +29,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[1].name}}
             
           </a>
@@ -42,7 +42,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[2].name}}
              
           </a>
@@ -55,7 +55,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[3].name}}
              
             
@@ -69,7 +69,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[4].name}}
           
           </a>
@@ -82,7 +82,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[5].name}}
             
           </a>
@@ -95,7 +95,7 @@
         </li>
 
         <li class="nav-item px-3">
-          <i class="fa-solid fa-circle-user" ></i>
+          <i class="fa-solid fa-circle-user hov" ></i>
         </li>
 
       
@@ -134,6 +134,11 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.hov:hover{
+  color: $green;
+
+}
+
 
 .utility{
   position:fixed;
@@ -150,7 +155,7 @@ export default {
   padding: 10px;
 }
 .border{
-    box-shadow: 5px 5px 2px lightgray;
+    box-shadow: -11px 5px 20px 4px rgba(0,0,0,0.47);
 }
 
 .glass{

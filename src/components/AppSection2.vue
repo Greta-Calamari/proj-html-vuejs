@@ -50,9 +50,9 @@
 
    <div class="row mt-5">
         <div class="col-5 mt-4">
-              <img src="../assets/images/home-2-popup-video-poster.jpg" class="rounded img2" alt="">
+              <img src="../assets/images/home-2-popup-video-poster.jpg" class="rounded img2 bigger2" alt="">
               <img src="../assets/images/maxcoach-shape-05.png" alt="" class="c--1">
-              <img src="../assets/images/icon-youtube-play.png" alt="" class="c--2">
+              <img src="../assets/images/icon-youtube-play.png"  alt="" class="c--2 bigger">
               <img src="../assets/images/maxcoach-shape-07.png" class="c--3" alt="">
               <div class="c--5"></div>
               <img src="../assets/images/shape-2.svg" class="c--6" alt="">
@@ -88,6 +88,22 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/vars.scss';
+.bigger{
+    transition: 1s;
+}
+.bigger:hover{
+transform: scale(0.7);
+}
+.bigger2{
+    transition: 1s;
+}
+.bigger2:hover{
+transform: scale(1.2);
+
+
+}
+
+
 
 .img{
     width: 90%;
