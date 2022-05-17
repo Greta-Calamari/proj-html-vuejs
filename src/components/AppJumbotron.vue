@@ -11,6 +11,7 @@
               <p>Have questions?
 
               <span class="link ">
+                  <div class="mark"></div>
                   Get Free Sample
                   <i class="fa-solid fa-arrow-right-long"></i>
 
@@ -39,12 +40,12 @@
 
       <div>
           <div class="ms-4">
-              <img src="../assets/images/client-logo-01.png" class="p-5" alt="">
-              <img src="../assets/images/client-logo-02.png" class="p-5" alt="">
-              <img src="../assets/images/client-logo-03.png" class="p-5"  alt="">
-              <img src="../assets/images/client-logo-04.png" class="p-5" alt="">
-              <img src="../assets/images/client-logo-05.png" class="p-5" alt="">
-              <img src="../assets/images/client-logo-06.png" class="p-5" alt="">
+              <img src="../assets/images/client-logo-01.png" class="p-5 iconn" alt="">
+              <img src="../assets/images/client-logo-02.png" class="p-5 iconn" alt="">
+              <img src="../assets/images/client-logo-03.png" class="p-5 iconn"  alt="">
+              <img src="../assets/images/client-logo-04.png" class="p-5 iconn" alt="">
+              <img src="../assets/images/client-logo-05.png" class="p-5 iconn" alt="">
+              <img src="../assets/images/client-logo-06.png" class="p-5 iconn" alt="">
           </div>
 
       </div>
@@ -68,6 +69,24 @@ export default {
 
 <style lang="scss">
 @import '../styles/vars.scss';
+// EFFETTI
+.mark::before{
+
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #e0e0e0;
+        
+}
+
+
+
+
+
+
 .container{
     // width: 47% !important;
     margin-top: 2% !important;
@@ -88,14 +107,18 @@ p{
 
 .link{
     color:$green;
-    border-bottom: 2px solid lightgray;
     font-weight: 700;
+    
 }
 .btn{
     background: $green !important; 
     color: $white !important;
     padding: 15px !important;
     width: 50% !important;
+
+}
+.btn:hover{
+  background-color: $violet !important;
 
 }
 
@@ -149,4 +172,14 @@ p{
 
     
 }
+.iconn:hover{
+   
+    opacity: 1;
+}
+.iconn{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+
 </style>

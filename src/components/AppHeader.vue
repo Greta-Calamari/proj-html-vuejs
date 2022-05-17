@@ -147,7 +147,7 @@ export default {
 
 .icons{
   line-height: 40px;
-  padding: 20px;
+  padding: 10px;
 }
 .border{
     box-shadow: 5px 5px 2px lightgray;
@@ -162,4 +162,6 @@ export default {
 .color-nav{
   color: $gray;
 }
+
+
 </style>
