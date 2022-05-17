@@ -17,29 +17,77 @@
     <a class="navbar-brand" href="#">
         <img src="../assets/images/dark-logo.png" class="w-50" alt="">
     </a>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <li class="nav-item dropdown">
-          <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {{myArray[0].name}}
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+    <div class="collapse navbar-collapse " id="navbarScroll">
+      
+          <li class="nav-item dropdown ">
+              <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{myArray[0].name}}
+              </a>
+              <ul class="dropdown-menu thiss" aria-labelledby="navbarScrollingDropdown">
+                <div class="row">
+                  <div class="col-4">
+                      <ul>
+
+                      <li class="lhh">MaxCoach Education <span class="hot">HOT</span></li>
+                      <li class="lhh">Course Portal</li>
+                      <li class="lhh">Distant Leaning <span class="hot">HOT</span></li>
+                      <li class="lhh">Multimedia Pedagogy</li>
+                      <li class="lhh">Modern Schooling</li>
+                      <li class="lhh">Remote Training</li>
+                      <li class="lhh">Health Coaching</li>
+                      <li class="lhh">Gym Coaching</li>
+                      <li class="lhh">Business</li>
+
+                      </ul>
+
+                  </div>
+
+
+                <div class="col-4">
+
+                  <ul>
+                    <li class="lhh">Artist</li>
+                    <li class="lhh">Kitchen Coach</li>
+                    <li class="lhh">Motivation</li>
+                    <li class="lhh">Dancing <span class="new"></span></li>
+                    <li class="lhh">Guitar <span class="new"></span></li>
+                    <li class="lhh">Yoga <span class="new"></span></li>
+                    <li class="lhh">Photography <span class="new"></span></li>
+                    <li class="lhh">Personal Finance <span class="new"></span></li>
+                  </ul>
+                </div>
+
+
+                <div class="col-4 ">
+                  <img src="../assets/images/homepages-mega-menu-image-alt.jpg" class="img" alt="">
+                </div>
+                
+              </div>
+            </ul>
+              
+          </li>
+
+     
 
         <li class="nav-item dropdown">
           <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[1].name}}
             
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+            <ul>
+              <li class="lhh">Start Here</li>
+              <li class="lhh">Success Story</li>
+              <li class="lhh">About me</li>
+              <li class="lhh">About us 01</li>
+              <li class="lhh">About us 02</li>
+              <li class="lhh">About us 03</li>
+              <li class="lhh">Contact me</li>
+              <li class="lhh">Contact us</li>
+              <li class="lhh">Purchase Guide</li>
+              <li class="lhh">Privacy Policy</li>
+              <li class="lhh">Terms of Service</li>
+            </ul>
           </ul>
         </li>
 
@@ -49,10 +97,16 @@
              
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul>
+              <li class="lhh">Courses Grid 01</li>
+              <li class="lhh">Courses Grid 02</li>
+              <li class="lhh">Courses Grid 03</li>
+              <li class="lhh">Memmbership Levels</li>
+              <li class="lhh">Become a Teacher</li>
+              <li class="lhh">Profile</li>
+              <li class="lhh">Checkout</li>
+              <li class="lhh">Single Layout</li>
+            </ul>
           </ul>
         </li>
 
@@ -63,10 +117,10 @@
             
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul>
+              <li class="lhh">Events</li>
+              <li class="lhh">Zoom Meetings</li>
+            </ul>
           </ul>
         </li>
 
@@ -76,23 +130,28 @@
           
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul>
+              <li class="lhh">Blog Grid</li>
+              <li class="lhh">Blog Masonry</li>
+              <li class="lhh">Blog Classic</li>
+              <li class="lhh">Blog List</li>
+            </ul>
           </ul>
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ">
           <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{myArray[5].name}}
             
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul>
+              <li class="lhh">Shop Left Sidebar</li>
+              <li class="lhh">Shop Right Sidebar</li>
+              <li class="lhh">Cart</li>
+              <li class="lhh">Whishlist</li>
+              <li class="lhh">Single Product</li>
+            </ul>
           </ul>
         </li>
 
@@ -140,8 +199,17 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.dropdown-menu.thiss {
+  padding: 30px !important;
+  width: 1000px !important;
+  height: 400px !important;
+  
+}
 
-
+.dropdown-menu{
+  border-bottom:8px solid $green;
+}
+ 
 
   li a::after {
     content: "";
@@ -161,12 +229,18 @@ export default {
   }
 
  
+.img{
+  width: 100%;
+  margin-top: 70px;
+  
+}
 
 
 
 
-
-
+.lhh{
+  line-height: 40px;
+}
 
 
 
