@@ -9,61 +9,152 @@
         </div>
 <div class="container">
             <carousel>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-01.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                
+                <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-02.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                
+
+                <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-03.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                
+
+                <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-04.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+               
+               <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-01.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                
+
+                <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-02.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
             </carousel>
+
+</div>
+
+<div class="container">
+    <div>
+    <img src="../assets/images/maxcoach-shape-01.png" class="c1" alt="">
+    <img src="../assets/images/maxcoach-shape-02.png" class="c2" alt="">
+    <div class="circle c3"></div>
+    <h4 class="tit-d text-center">Start today for getting <span class="tit-c text-center">Online Certification</span> </h4>
+    <h2 class="tit-d text-center">You can be your own guiding star with our help!</h2>
+    <button class="btn text-center">
+        Get started now
+    </button>
+
+    </div>
+
+
 
 </div>
     
@@ -111,6 +202,12 @@ export default {
     font-weight: 100;
 }
 
+.tit-d{
+    color: $violet;
+    font-weight: 700;
+}
+
+
 
 
 .owl-carousel .owl-nav .owl-prev,
@@ -121,20 +218,54 @@ export default {
   padding: 10px 20px;
 }
 
-.owl-carousel .owl-nav .owl-prev {
-  color: blue;
-}
-.owl-carousel .owl-nav .owl-prev:hover {
-  color: aqua;
+.imgl{
+border-radius: 50%;    
 }
 
-.owl-carousel .owl-nav .owl-next {
-  color: red;
+.card{
+    border:none !important;
 }
-.owl-carousel .owl-nav .owl-next:hover {
-  color: yellow;
-}
+
+.btn{
     
+    width: 20% !important;
+    background: $green !important; 
+    color: $white !important;
+    padding: 15px !important;
+    margin: 5% 40% !important;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid $sand;
+}
+
+.c1{
+    position: relative;
+    top: 200px;
+    right: 10px;
+  
+}
+
+
+
+.c2{
+    position: relative;
+    left:80%;
+    top: 250px;
+
+}
+
+.c3{
+    position: relative;
+    right: 200px;
+    top: 50px;
+
+}
+
+
 
 
 </style>
