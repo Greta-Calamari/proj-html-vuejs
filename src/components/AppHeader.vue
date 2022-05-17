@@ -140,6 +140,50 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+:root {
+  --pink: #ff4081;
+}
+
+
+
+
+
+  li a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.2em;
+    width: 0%;
+    // background-color: ;
+    bottom: -0.2em;
+    transition: all ease-in-out 250ms;
+    opacity: 0;
+  }
+
+  li a:hover::after {
+    opacity: 1;
+    width: 60%;
+  }
+
+  li a:hover {
+    color: $green;
+  }
+
+  li:first-child {
+    margin-right: auto;
+    margin-left: 3em;
+  }
+
+
+
+
+
+
+
+
+
+
+
 .hov-e{
   opacity: 0;
 }
