@@ -1,5 +1,7 @@
 <template>
-    <div class="container mt-0">
+<div>
+
+    <div class="container">
         <div class="row">
             <div class="col-3 text-center bord mt-5">
                 <h3 class="tit-">Succesfully</h3>
@@ -31,10 +33,15 @@
             </div>
 
         </div>
-    <div class="container sub-sec">
+    </div>
+
+
+<div class="sub-sec">
+
+    <div class="container">
         <div class="row pad">
-            <div class="col-4">
-                <p class="lh-base" >ENJOYABLE INSIGHTS</p>
+            <div class="col-4 ">
+                <p class="lh" >ENJOYABLE INSIGHTS</p>
                 <h4 class="tit- lh-base">Most Viewed <span class="tit-gr">Best Blogs</span> </h4>
                 <ul>
                     <li>
@@ -114,6 +121,8 @@
 
 
     </div>
+</div>
+
 
 
     <div class="container text-center">
@@ -131,7 +140,8 @@
 
     </div>
 
-    </div>
+    
+</div>
 
 
         
@@ -147,6 +157,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/vars.scss';
+
 
 .bord{
     border-left: 1px solid $bg;
@@ -176,7 +187,7 @@ export default {
 }
 
 .btn{
-    width: 20% !important; 
+    width: 25% !important; 
     
 }
 
@@ -205,6 +216,9 @@ export default {
     bottom: 180px;
     left: 500px;
 
+}
+.lh{
+    line-height: 50px;
 }
 
 </style>

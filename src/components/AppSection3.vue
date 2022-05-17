@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="mt-0">
         <img src="../assets/images/wave.svg" alt="">
       <div class="all">
 
@@ -190,10 +190,10 @@ export default {
 <style lang="scss" scoped>
 @import '../styles/vars.scss';
 .container-fluid{
-    background-color: $bg;
+    background-color: #FAFBFC;
 }
 .all{
-    background-color: $bg;
+    background-color: #FAFBFC;
 
 }
     
