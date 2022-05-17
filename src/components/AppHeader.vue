@@ -1,6 +1,6 @@
 <template>
 <div class="border">
-  <div class="utility">
+  <div class="utility hov-e">
     <ul class="icons">
       <li><i class="fa-solid fa-ruler"></i></li>
       <li><i class="fa-solid fa-life-ring"></i></li>
@@ -134,6 +134,12 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.hov-e{
+  opacity: 0;
+}
+.hov-e:hover{
+  opacity: 1;
+}
 .hov:hover{
   color: $green;
 

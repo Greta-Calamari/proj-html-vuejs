@@ -5,7 +5,7 @@
         
     <div class="d-flex justify-content-around">
 
-         <div class="" style="width: 18rem;">
+         <div class="bigger2" style="width: 18rem;">
             <img src="../assets/images/home-2-image-box-03.png" class="card-img-top img" alt="...">
              <div class="card-body">
              <h5 class="tit-ca">Customize Preferences</h5>    
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-         <div class="" style="width: 18rem;">
+         <div class="bigger2" style="width: 18rem;">
             <img src="../assets/images/about-us-02-image-box-02.png" class="card-img-top" alt="...">
              <div class="card-body">
              <h5 class="tit-ca">Cloud Storage</h5>
@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <div class="" style="width: 18rem;">
+        <div class="bigger2" style="width: 18rem;">
             <img src="../assets/images/home-2-image-box-01.png" class="card-img-top" alt="...">
              <div class="card-body">
             <h5 class="tit-ca">Multimedia Channels</h5>
@@ -49,7 +49,7 @@
    </div>
 
    <div class="row mt-5">
-        <div class="col-5 mt-4">
+        <div class="col-5 mt-4 hoverr">
               <img src="../assets/images/home-2-popup-video-poster.jpg" class="rounded img2 bigger2" alt="">
               <img src="../assets/images/maxcoach-shape-05.png" alt="" class="c--1">
               <img src="../assets/images/icon-youtube-play.png"  alt="" class="c--2 bigger">
@@ -88,6 +88,21 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/vars.scss';
+.hovverr{
+    transition: 1s;
+}
+
+.hoverr:hover .c--1,.hoverr:hover .c--3,.hoverr:hover .c--5,.hoverr:hover .c--6{
+   -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+
+}
+
+
+
 .bigger{
     transition: 1s;
 }
@@ -177,6 +192,74 @@ sub{
     z-index: -1000;
 }
 
+
+// ANIMATION
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
 
 
 

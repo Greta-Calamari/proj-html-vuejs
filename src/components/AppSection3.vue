@@ -142,7 +142,7 @@
 </div>
 
 <div class="container">
-    <div>
+    <div class="hovver">
     <img src="../assets/images/maxcoach-shape-01.png" class="c1" alt="">
     <img src="../assets/images/maxcoach-shape-02.png" class="c2" alt="">
     <div class="circle c3"></div>
@@ -189,6 +189,19 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/vars.scss';
+
+.hovver{
+    transition:s;
+}
+
+.hovver:hover .c1,.hovver:hover .c2,.hovver:hover .c3{
+   -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+
+}
 .container-fluid{
     background-color: #FAFBFC;
 }
@@ -266,6 +279,74 @@ border-radius: 50%;
 }
 
 
+
+// ANIMATION
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
 
 
 </style>
