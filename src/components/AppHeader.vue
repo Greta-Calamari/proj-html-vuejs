@@ -49,11 +49,11 @@
                     <li class="lhh">Artist</li>
                     <li class="lhh">Kitchen Coach</li>
                     <li class="lhh">Motivation</li>
-                    <li class="lhh">Dancing <span class="new"></span></li>
-                    <li class="lhh">Guitar <span class="new"></span></li>
-                    <li class="lhh">Yoga <span class="new"></span></li>
-                    <li class="lhh">Photography <span class="new"></span></li>
-                    <li class="lhh">Personal Finance <span class="new"></span></li>
+                    <li class="lhh">Dancing <span class="new">NEW</span></li>
+                    <li class="lhh">Guitar <span class="new">NEW</span></li>
+                    <li class="lhh">Yoga <span class="new">NEW</span></li>
+                    <li class="lhh">Photography <span class="new">NEW</span></li>
+                    <li class="lhh">Personal Finance <span class="new">NEW</span></li>
                   </ul>
                 </div>
 
@@ -198,6 +198,23 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
+.hot{
+  
+  font-weight: 700;
+  background-color: #f5df2e;
+  background-image: linear-gradient(315deg, #f5df2e 0%, #f07654 74%);
+  width: 100px;
+  height: 50px;
+}
+
+.new{
+  width: 100px;
+  height: 50px;
+  background-color: $green;
+
+}
+
 
 .dropdown-menu.thiss {
   padding: 30px !important;
