@@ -48,10 +48,17 @@
 
         </div>
 
-        <div class="text-muted text-center mt-5">
+        <div class="text-muted text-center mt-5 pos">
             <i class="fa-solid fa-copyright"></i>
             2020
             Maxcoach. All Rights Reserved
+        </div>
+        <div class="down">
+            <a href="#start" class="down">
+            <i class="fa-solid fa-arrow-up-long"></i>
+
+            </a>
+
         </div>
 
         
@@ -90,6 +97,22 @@ export default {
 .lh-g{
     font-size: 20px;
     font-weight: 700;
+}
+
+.pos{
+    position: relative;
+}
+
+.down{
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    color: $white;
+    border-radius: 50%;
+    background-color: $green;
 }
 
 </style>

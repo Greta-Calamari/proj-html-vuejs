@@ -1,7 +1,16 @@
 <template>
 <div class="border">
+  <div class="utility">
+    <ul class="icons">
+      <li><i class="fa-solid fa-ruler"></i></li>
+      <li><i class="fa-solid fa-life-ring"></i></li>
+      <li><i class="fa-solid fa-book"></i></li>
+      <li><i class="fa-solid fa-cart-shopping"></i></li>
+    </ul>
 
-<nav class="navbar navbar-expand-lg bg-light d-flex justify-content-center ">
+  </div>
+
+<nav id="start" class="navbar navbar-expand-lg bg-light d-flex justify-content-center ">
   <div class="d-flex justify-content-between">
     <a class="navbar-brand" href="#">
         <img src="../assets/images/dark-logo.png" class="w-50" alt="">
@@ -124,6 +133,22 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
+
+.utility{
+  position:fixed;
+  right: 0;
+  box-shadow: -11px 5px 20px 4px rgba(0,0,0,0.47);
+  z-index: 1000;
+  
+ 
+  
+}
+
+.icons{
+  line-height: 40px;
+  padding: 20px;
+}
 .border{
     box-shadow: 5px 5px 2px lightgray;
 }
