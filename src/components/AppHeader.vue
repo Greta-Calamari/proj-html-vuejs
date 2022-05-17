@@ -1,5 +1,7 @@
 <template>
+
 <div class="border">
+  
   <div class="utility hov-e">
     <ul class="icons">
       <li><i class="fa-solid fa-ruler"></i></li>
@@ -112,17 +114,21 @@
   </div>
 </nav>
 
-
+<!-- <app-loader v-if="loading"/> -->
     </div>
 </template>
 
 <script>
 import  dati from '../dati.json'
+// import AppLoader from './AppLoader.vue'
+
 export default {
+  // components: { AppLoader },
     name:'AppHeader',
     data(){
         return{
           myArray:dati,
+          loading:false
           
 
         }
