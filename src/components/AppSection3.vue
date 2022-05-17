@@ -41,8 +41,8 @@
                                 <img src="../assets/images/testimonial-avata-02.jpg" class="w-100 imgl" alt="">
                             </div>
                             <div class="col-8">
-                                    <p class="tit-d">MINA HOLLACE</p>
-                                    <p>/Freelancer</p>
+                                    <p class="tit-d">FLORENCE THEMES</p>
+                                    <p>/Multimedia admin</p>
 
                             </div>
                         </div>
@@ -63,8 +63,8 @@
                                 <img src="../assets/images/testimonial-avata-03.jpg" class="w-100 imgl" alt="">
                             </div>
                             <div class="col-8">
-                                    <p class="tit-d">MINA HOLLACE</p>
-                                    <p>/Freelancer</p>
+                                    <p class="tit-d">MADLEY PONDOR</p>
+                                    <p>/IT Specialist</p>
 
                             </div>
                         </div>
@@ -117,6 +117,86 @@
                 </div>
                 
 
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-02.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-01.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-02.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
+                        <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
+
+                        <div class="row">
+                            <div class="col-4">
+
+                                <img src="../assets/images/testimonial-avata-03.jpg" class="w-100 imgl" alt="">
+                            </div>
+                            <div class="col-8">
+                                    <p class="tit-d">MINA HOLLACE</p>
+                                    <p>/Freelancer</p>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
                         <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
