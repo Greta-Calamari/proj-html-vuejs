@@ -1,8 +1,11 @@
 <template>
-    <div class="container c-color">
+<div class="c-color">
+
+
+    <div class="container">
         <p class="text-center pt-5 mb-1">Stimulated to learn?</p>
         <h4 class="title text-center mb-5 fs-2">Featured Online Courses</h4>
-<div class="d-flex flex-wrap justify-content-around">
+<div class="d-flex flex-wrap justify-content-around ">
 
         <div class="mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
@@ -133,6 +136,7 @@
         </button>
 
     </div>
+</div>
         
 
 

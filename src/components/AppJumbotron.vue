@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <div class="row hovvver">
-          <div class="col-6 col1">
+          <div class="col-12 col-md-12 col-lg-6 col1">
               <h3 class="title">Distant learninbg for further expansion</h3>
               <p>learning is a life-long journey that in fact we never find the terminate stop.Stop searching,enjoy the process.</p>
               <button type="button" class="btn my-3">
@@ -34,7 +34,7 @@
 
           </div>
 
-          <div class="col-6 revi">
+          <div class="col-12 col-md-12 col-lg-6  revi">
               <img src="../assets/images/about-me.jpg" class="circle" alt="">
               <img src="../assets/images/maxcoach-shape-08.png" class="c-1 " alt="">
               <img src="../assets/images/maxcoach-shape-08.png" class="c-2" alt="">
@@ -182,12 +182,16 @@ p{
     bottom:58%;
     left: 8%;
     z-index: -100;
+    overflow-x: hidden;
 }
 .c-2{
     position: relative;
     bottom: 40%;
     right: 16%;
     z-index: -100;
+    overflow-x: hidden;
+
+
 
 }
 .c-3{
@@ -195,6 +199,10 @@ p{
     bottom: 24%;
     left: 30%;
     z-index: -100;
+    overflow-x: hidden;
+
+
+
 
 }
 .c-4{
@@ -202,12 +210,18 @@ p{
     bottom: 60%;
     left: 35%;
     z-index: -100;
+    overflow-x: hidden;
+    
+
 
 }
 .c-5{
     position: relative;
     bottom: 50%;
     left: 14%;
+    overflow-x: hidden;
+    
+
    
 }
 
@@ -218,6 +232,9 @@ p{
     height: 50px;
     border-radius:50%;
     border: 5px solid $sand;
+    overflow-x: hidden;
+    
+
 
     
 }

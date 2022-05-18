@@ -2,7 +2,7 @@
 
 <div class="border">
   
-  <div class="utility hov-e">
+  <div class="utility hov-e ">
     <ul class="icons">
       <li><i class="fa-solid fa-ruler"></i></li>
       <li><i class="fa-solid fa-life-ring"></i></li>
@@ -23,7 +23,7 @@
               <a class="nav-link color-nav dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{myArray[0].name}}
               </a>
-              <ul class="dropdown-menu thiss" aria-labelledby="navbarScrollingDropdown">
+              <ul class="dropdown-menu thiss animate slideIn" aria-labelledby="navbarScrollingDropdown">
                 <div class="row">
                   <div class="col-4">
                       <ul>
@@ -74,7 +74,7 @@
             {{myArray[1].name}}
             
           </a>
-          <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarScrollingDropdown">
             <ul>
               <li class="lhh">Start Here</li>
               <li class="lhh">Success Story</li>
@@ -96,7 +96,7 @@
             {{myArray[2].name}}
              
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarScrollingDropdown">
             <ul>
               <li class="lhh">Courses Grid 01</li>
               <li class="lhh">Courses Grid 02</li>
@@ -116,7 +116,7 @@
              
             
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarScrollingDropdown">
             <ul>
               <li class="lhh">Events</li>
               <li class="lhh">Zoom Meetings</li>
@@ -129,7 +129,7 @@
             {{myArray[4].name}}
           
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarScrollingDropdown">
             <ul>
               <li class="lhh">Blog Grid</li>
               <li class="lhh">Blog Masonry</li>
@@ -144,7 +144,7 @@
             {{myArray[5].name}}
             
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarScrollingDropdown">
             <ul>
               <li class="lhh">Shop Left Sidebar</li>
               <li class="lhh">Shop Right Sidebar</li>
@@ -220,6 +220,7 @@ export default {
   padding: 30px !important;
   width: 1000px !important;
   height: 400px !important;
+  transition: 1s;
   
 }
 
@@ -304,5 +305,56 @@ export default {
   color: $gray;
 }
 
+
+
+
+// ANIMATION
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
 
 </style>

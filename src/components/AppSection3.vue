@@ -8,7 +8,7 @@
             <h4 class="title text-center mb-5 fs-2">Our <span class="tit-c">top learners' </span>verbatim </h4>
         </div>
 <div class="container">
-            <carousel>
+            <carousel  :autoplay="true" :nav="false" autoplayTimeout="1000" autoplayHoverPause="true">
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
                         <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
@@ -197,8 +197,8 @@
                         
                     </div>
                 </div>
-                <div class="card" style="width: 20rem;">
-                    <div class="card-body">
+                <div class="card row" style="width: 20rem;">
+                    <div class="card-body ">
                         <h5 class="card-title tit-d">High level of efficiency and scientific teaching methods</h5>
                         <p class="card-text">I am free to learn at my own peace, follow my own schedule and choose the subject i want to learn from the syllabus.Great study portal for people like me.</p>
 

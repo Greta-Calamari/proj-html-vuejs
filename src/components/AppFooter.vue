@@ -3,7 +3,7 @@
 
     <div class="container p-5">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
 
                 <ul>
                     <li class="lh lh-g">{{myarray[0].name}}</li>
@@ -20,7 +20,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6 d-flex">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex">
 
                 <ul class="px-5">
                     <li class="lh lh-g ">{{myarray[4].name}}</li>

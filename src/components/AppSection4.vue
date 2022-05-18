@@ -3,28 +3,28 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-3 text-center bord mt-5">
+            <div class=" col-12 col-sm-12 col-md-3 col-lg-3 text-center bord mt-5">
                 <h3 class="tit-">Succesfully</h3>
                 <h3 class="tit-">trained</h3>
                 <h1 class="tit-g hovv">1790</h1>
                 <p>ENROLLED LAERNERS</p>
 
             </div>
-            <div class="col-3 text-center bord mt-5">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3  text-center bord mt-5">
                 <h3 class="tit-">Proudly</h3>
                 <h3 class="tit-">Received</h3>
                 <h1 class="tit-g hovv" >19</h1>
                 <p>COUNTRYWIDE AWARDS</p>
 
             </div>
-            <div class="col-3 text-center bord mt-5">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3  text-center bord mt-5">
                 <h3 class="tit-">Firmly</h3>
                 <h3>Established</h3>
                 <h1 class="tit-g hovv" >24</h1>
                 <p>LOCAL BRANCHES</p>
 
             </div>
-            <div class="col-3 text-center bord mt-5">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3  text-center bord mt-5">
                 <h3 class="tit-">Getting</h3>
                 <h3 class="tit-">Featured on</h3>
                 <h1 class="tit-g hovv">1090</h1>
@@ -40,7 +40,7 @@
 
     <div class="container">
         <div class="row pad">
-            <div class="col-4 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
                 <p class="lh" >ENJOYABLE INSIGHTS</p>
                 <h4 class="tit- lh-base">Most Viewed <span class="tit-gr">Best Blogs</span> </h4>
                 <ul>
@@ -69,7 +69,7 @@
                 </ul>
 
             </div>
-            <div class="col-4 hovv">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 my-2 hovv">
                 <div class="card" style="width: 18rem;">
                     <img src="../assets/images/artist-blog-03-480x352.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -92,7 +92,7 @@
 
             </div>
             
-            <div class="col-4 hovv">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 hovv">
                 <div class="card" style="width: 18rem;">
                     <img src="../assets/images/artist-blog-01-480x352.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -208,7 +208,7 @@ export default {
 }
 
 .btn{
-    width: 25% !important; 
+    width: 35% !important; 
     
 }
 

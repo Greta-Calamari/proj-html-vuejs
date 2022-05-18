@@ -3,9 +3,9 @@
         <p class="text-center pt-5 mb-1">MAX COACH AVAILABLE</p>
         <h4 class="title text-center mb-5 fs-2">Access <span class="tit-c">Smart Tutoring </span>Program for Benefits.</h4>
         
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-around row">
 
-         <div class="bigger2" style="width: 18rem;">
+         <div class="bigger2 col-12 col-sm-12 col-md-12 col-lg-6 " style="width: 18rem;">
             <img src="../assets/images/home-2-image-box-03.png" class="card-img-top img" alt="...">
              <div class="card-body">
              <h5 class="tit-ca">Customize Preferences</h5>    
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-         <div class="bigger2" style="width: 18rem;">
+         <div class="bigger2 col-12 col-sm-12 col-md-12 col-lg-6 " style="width: 18rem;">
             <img src="../assets/images/about-us-02-image-box-02.png" class="card-img-top" alt="...">
              <div class="card-body">
              <h5 class="tit-ca">Cloud Storage</h5>
@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <div class="bigger2" style="width: 18rem;">
+        <div class="bigger2 col-12 col-sm-12 col-md-12 col-lg-6 " style="width: 18rem;">
             <img src="../assets/images/home-2-image-box-01.png" class="card-img-top" alt="...">
              <div class="card-body">
             <h5 class="tit-ca">Multimedia Channels</h5>
@@ -49,7 +49,7 @@
    </div>
 
    <div class="row mt-5">
-        <div class="col-5 mt-4 hoverr">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 mt-4 hoverr">
               <img src="../assets/images/home-2-popup-video-poster.jpg" class="rounded img2 bigger2" alt="">
               <img src="../assets/images/maxcoach-shape-05.png" alt="" class="c--1">
               <img src="../assets/images/icon-youtube-play.png"  alt="" class="c--2 bigger">
@@ -58,7 +58,7 @@
               <img src="../assets/images/shape-2.svg" class="c--6" alt="">
           </div>
 
-       <div class="col-5 ms-5 mt-5">
+       <div class="col-12 col-sm-12 col-md-12 col-lg-5 ms-5 mt-5">
               <p class="sub">GET STARTED <span class="tit-cc"> EFFORTLESSLY</span> </p>
               <h3 class="title">Enjoy our <p class="tit-c">Companionship</p> </h3>
               <p class="larg">Sneek peek into what has in store for you or online teaching and mentoring portal. Seek some hidden hints of early-bird rewards as well.</p>
