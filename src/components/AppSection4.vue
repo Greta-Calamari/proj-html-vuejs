@@ -42,26 +42,26 @@
         <div class="row pad">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
                 <p class="lh" >ENJOYABLE INSIGHTS</p>
-                <h4 class="tit- lh-base">Most Viewed <span class="tit-gr">Best Blogs</span> </h4>
+                <h4 class="tit- lh">Most Viewed <span class="tit-gr">Best Blogs</span> </h4>
                 <ul>
-                    <li>
+                    <li class="lh">
                         <i class="fa-solid fa-arrow-right-long tit-"></i>
                         <span class="tit-"> Become a Better Blogger: Content Planning</span> 
 
                     </li>
-                    <li>
+                    <li class="lh">
                         <i class="fa-solid fa-arrow-right-long tit-"></i>
                         <span class="tit-"> Promoting Your Online Business on Pinterest</span> 
                     </li>
-                    <li>
+                    <li class="lh">
                         <i class="fa-solid fa-arrow-right-long tit-"></i>
                         <span class="tit-"> Gamification and Game-Based Learning</span>
                     </li>
-                    <li>
+                    <li class="lh">
                         <i class="fa-solid fa-arrow-right-long tit-"></i>
                         <span class="tit-"> Designing an Online from Expert's Perspective</span>
                     </li>
-                    <li>
+                    <li class="lh">
                         <i class="fa-solid fa-arrow-right-long tit-"></i>
                         <span class="tit-"> Why Online Courses Are the Future of Education</span>
                     </li>
@@ -208,7 +208,7 @@ export default {
 }
 
 .btn{
-    width: 35% !important; 
+    width: 45% !important; 
     
 }
 

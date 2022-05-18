@@ -9,10 +9,10 @@
 
         <div class="mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
-                <div class="col-md-4 mt-3">
+                <div class="col-sm-4 col-md-4 mt-3">
                    <img src="../assets/images/course-02-480x298.jpg" class="img-fluid circle" alt="...">
                 </div>
-                 <div class="col-md-8 ">
+                 <div class="col-sm-4 col-md-8">
                    <div class="card-body ms-2 ">
                    <h5 class="card-title price">$40.<span class="mini">00</span></h5>
                    <p class="card-text tit-ca">Learning to Write as a Professional Author</p>
@@ -29,10 +29,10 @@
    </div>
    <div class="mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
-                <div class="col-md-4 mt-3">
+                <div class="col-sm-4 col-sm-4 col-md-4 mt-3">
                    <img src="../assets/images/stock-full-hd-03-480x298.jpg" class="img-fluid circle" alt="...">
                 </div>
-                 <div class="col-md-8">
+                 <div class="col-sm-4 col-md-8">
                    <div class="card-body ms-2">
                    <h5 class="card-title price">Free</h5>
                    <p class="card-text tit-ca">Customer-centric info-Tech Strategies</p>
@@ -49,10 +49,10 @@
    </div>
    <div class=" mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
-                <div class="col-md-4 mt-3">
+                <div class="col-sm-4 col-md-4 mt-3">
                    <img src="../assets/images/stock-full-hd-04-480x298.jpg" class="img-fluid circle" alt="...">
                 </div>
-                 <div class="col-md-8 mt-3">
+                 <div class="col-sm-4 col-md-8 mt-3">
                    <div class="card-body ms-2">
                    <h5 class="card-title">$19.<span class="mini">00</span></h5>
                    <p class="card-text tit-ca">Open Programming Courses for Everyone:Python</p>
@@ -69,10 +69,10 @@
    </div>
    <div class=" mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
-                <div class="col-md-4 mt-3">
+                <div class="col-sm-4 col-md-4 mt-3">
                    <img src="../assets/images/stock-full-hd-06-480x298.jpg" class="img-fluid circle" alt="...">
                 </div>
-                 <div class="col-md-8 mt-3">
+                 <div class="col-sm-4 col-md-8 mt-3">
                    <div class="card-body ms-2">
                    <h5 class="card-title">$26.<span class="mini">00</span></h5>
                    <p class="card-text tit-ca">Academic Listening and Note-taking</p>
@@ -89,10 +89,10 @@
    </div>
    <div class="mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
-                <div class="col-md-4 mt-3">
+                <div class="col-sm-4 col-md-4 mt-3">
                    <img src="../assets/images/course-featured-image-01-480x298.jpg" class="img-fluid circle" alt="...">
                 </div>
-                 <div class="col-md-8">
+                 <div class="col-sm-4 col-md-8">
                    <div class="card-body ms-2">
                    <h5 class="card-title">$39.<span class="mini">00</span></h5>
                    <p class="card-text tit-ca">Master jQuery in a Short Period of Time</p>
@@ -109,10 +109,10 @@
    </div>
    <div class=" mb-3" style="max-width: 540px;">
             <div class="row g-0 biggo">
-                <div class="col-md-4 mt-3">
+                <div class="col-sm-4 col-md-4 mt-3">
                    <img src="../assets/images/stock-full-hd-05-480x298.jpg" class="img-fluid circle" alt="...">
                 </div>
-                 <div class="col-md-8">
+                 <div class="col-sm-4 col-md-8">
                    <div class="card-body ms-2">
                    <h5 class="card-title">$59.<span class="mini">00</span> </h5>
                    <p class="card-text tit-ca">Introduction to Javascript for Beginners</p>
@@ -128,12 +128,15 @@
        </div>
   </div>
 </div>
-
+        <div class="row">
+            
         <button type="button" class="btn my-3 ">
                  View all courses
                  <i class="fa-solid fa-arrow-right-long"></i> 
                 
         </button>
+        </div>
+
 
     </div>
 </div>
@@ -154,7 +157,7 @@ export default {
 
 .biggo{
     transition:transform 2s;
-    height: 200px;
+    height: 245px;
 
 }
 

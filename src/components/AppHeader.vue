@@ -173,6 +173,7 @@
   </div>
 </nav>
 
+
 <!-- <app-loader v-if="loading"/> -->
     </div>
 </template>
