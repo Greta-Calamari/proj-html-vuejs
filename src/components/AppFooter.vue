@@ -12,9 +12,9 @@
                     <li class="lh gr">{{myarray[3].name}} </li>
                     <li class="lh gr">
                        <a href="https://www.facebook.com/groups/3722639544507216"><i class="gr fa-brands fa-facebook-square px-2 ico"></i></a>
-                        <i class="gr fa-brands fa-twitter px-2 ico"></i>
-                        <i class="gr fa-brands fa-instagram px-2 ico"></i>
-                        <i class="gr fa-brands fa-linkedin px-2 ico"></i>
+                        <a href="https://twitter.com/home?lang=it"><i class="gr fa-brands fa-twitter px-2 ico"></i></a>
+                       <a href="https://www.instagram.com/"><i class="gr fa-brands fa-instagram px-2 ico"></i></a> 
+                        <a href="https://it.linkedin.com/"><i class="gr fa-brands fa-linkedin px-2 ico"></i></a>
 
 
                     </li>
